@@ -1,1 +1,1 @@
-Zadanie z obracaniania elementu
+Zadanie z obracaniania elementu.
