@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+	font-family: 'Nunito Sans';
+	background-color: #333;
+	color: #fff;
+	font-size: 36px;
+}
+
+.square {
+	width: 200px;
+	height: 200px;
+    border-radius: 25px;
+    border: 3px solid #fff;
+}
+
+.square2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: royalblue;
+    transition: 0.3s;
+    transform-origin: 50% 50% ;
+}
+
+.square2:hover{
+    transform: rotate(45deg);
+}
+
+.dot{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+}
